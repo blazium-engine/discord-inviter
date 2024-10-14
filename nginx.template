@@ -1,0 +1,6 @@
+server {
+    listen 80;
+
+    # Redirect to the URL specified by the DISCORD_LINK environment variable
+    return 301 $DISCORD_LINK;
+}
